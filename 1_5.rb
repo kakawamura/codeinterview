@@ -8,7 +8,7 @@
 
 # param: string
 def replaceWhiteSpace(string)
-  return string.split(//).map { |x| x = (x == " ") ? "%20" : x }.join
+  return string.chars.map { |x| x = (x == " ") ? "%20" : x }.join
 end
 
 puts replaceWhiteSpace("this is a string with some white spaces")
