@@ -6,7 +6,6 @@
   January 26th 2015
   Kazushi Kawmaura
 =end
-
 def string_unique?(s)
   for i in 0...s.length
     puts s[i]
@@ -29,9 +28,4 @@ def string_unique2?(s)
   end
   return true;
 end
-
-puts string_unique2?("word")
-puts string_unique2?("notunique")
-puts string_unique2?("bike")
-puts string_unique2?("kazushii")
 
